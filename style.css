@@ -17,6 +17,7 @@ main {
   justify-content: center;
   flex-direction: column;
   border: 1px solid #000;
+  height: 100vh;
 }
 
 /* ! start nav */
@@ -56,22 +57,27 @@ nav {
 /* ! start sections */
 .section-1 {
   grid-area: section-1;
+  background-color: #f5c0ac;
 }
 
 .sidebar {
   grid-area: sidebar;
+  background-color: #dbcfcf;
 }
 
 .section-2 {
   grid-area: section-2;
+  background-color: #d9d9d9;
 }
 
 .section-3 {
   grid-area: section-3;
+  background-color: #e2e2e2;
 }
 
 .section-4 {
   grid-area: section-4;
+  background-color: #e2e2e2;
 }
 
 .sections {
@@ -99,20 +105,5 @@ nav {
   font-size: 25pt;
 }
 
-.section-1 {
-  background-color: #f5c0ac;
-}
-.sidebar {
-  background-color: #dbcfcf;
-}
-.section-2 {
-  background-color: #d9d9d9;
-}
-.section-3 {
-  background-color: #e2e2e2;
-}
-.section-4 {
-  background-color: #e2e2e2;
-}
-
 /* ! end sections */
+/* ? v2 */
