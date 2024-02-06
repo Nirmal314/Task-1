@@ -16,8 +16,6 @@ body {
 }
 main {
   width: 102rem;
-  /* width: 80%; */
-  /* padding: 1rem; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -51,6 +49,7 @@ nav {
 
 .nav-links > a:nth-child(5) {
   background-color: #282c35;
+  border-radius: 9px;
   font-size: medium;
   color: #fff;
 }
